@@ -1,0 +1,7 @@
+a_math, a_eng=input().split()
+b_math, b_eng=input().split()
+a_math=int(a_math)
+a_eng=int(a_eng)
+b_math=int(b_math)
+b_eng=int(b_eng)
+print(1 if a_math>b_math and a_eng>b_eng else 0)
